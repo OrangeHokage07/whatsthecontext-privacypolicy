@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — What's the Context?</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>What's the Context?</h1>
+      <p class="subtitle">Privacy Policy</p>
+      <p class="updated">Last updated: February 2026</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Overview</h2>
+        <p>
+          What's the Context? is a Chrome extension that helps you copy, highlight, and
+          AI-process text from any webpage. We are committed to protecting your privacy.
+          This policy explains what data is stored and how it is used.
+        </p>
+      </section>
+
+      <section>
+        <h2>Data Stored Locally on Your Device</h2>
+        <p>The following data is stored exclusively in your browser using <code>chrome.storage.local</code>. It never leaves your device except as described in the section below.</p>
+        <ul>
+          <li>Text you copy or highlight on webpages</li>
+          <li>Source URL, page title, and timestamp of each item</li>
+          <li>Your AI provider name and model preference</li>
+          <li>Your AI API key</li>
+          <li>Saved browser sessions and tab lists</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Data We Transmit</h2>
+        <p>
+          When you explicitly click <strong>Summarize</strong>, <strong>Rephrase</strong>,
+          <strong>Proofread</strong>, or <strong>Translate</strong>, the selected text is
+          sent over HTTPS directly to the AI provider you configured — OpenAI, Google Gemini,
+          or Anthropic. This request is made from your browser directly to the provider's API.
+        </p>
+        <p>
+          We do not operate any servers. We do not receive or store any data ourselves.
+          Only the text you explicitly submit for AI processing is transmitted, and only to
+          the provider whose API key you have entered.
+        </p>
+      </section>
+
+      <section>
+        <h2>Data We Do Not Collect</h2>
+        <ul>
+          <li>We do not collect analytics or usage statistics</li>
+          <li>We do not collect crash or error reports</li>
+          <li>We do not share any data with third parties</li>
+          <li>We do not transmit your API key to anyone except the provider's own API endpoint</li>
+          <li>We do not track browsing history</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Permissions Used</h2>
+        <ul>
+          <li><strong>storage</strong> — saves clipboard items, highlights, sessions, and settings locally</li>
+          <li><strong>activeTab</strong> — reads the current page's URL and title to tag saved items</li>
+          <li><strong>sidePanel</strong> — opens the extension's side panel</li>
+          <li><strong>scripting</strong> — injects the text-selection bubble into webpages</li>
+          <li><strong>tabs</strong> — reads open tabs for the Save Session and Group Tabs features</li>
+          <li><strong>tabGroups</strong> — creates Chrome tab groups when you use Group Tabs</li>
+          <li><strong>alarms</strong> — schedules cleanup of expired local items every hour</li>
+          <li><strong>host permissions (&lt;all_urls&gt;)</strong> — required so the text-selection bubble works on every website you visit</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Data Deletion</h2>
+        <p>
+          You can delete all locally stored data at any time by clicking
+          <strong>"Clear &amp; Remove Key"</strong> in the extension settings panel, or by
+          removing the extension from Chrome entirely via
+          <em>chrome://extensions</em>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Changes to This Policy</h2>
+        <p>
+          If this policy changes, the updated version will be posted at this URL with a
+          revised date at the top.
+        </p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>
+          For privacy questions or concerns, please contact:
+          <a href="mailto:your@email.com">your@email.com</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 What's the Context? Chrome Extension</p>
+    </footer>
+  </div>
+</body>
+</html>
